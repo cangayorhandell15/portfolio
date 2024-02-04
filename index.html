@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRC</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c3ebf42519.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="logo.png" >  
+</head>
+<body>
+
+<!--THIS IS THE NAVIGATION BAR SA TAAS-->
+
+<header class="header">
+    <img src="logo.png" width="100px" height="80vh" >
+     <div  class="logo">    
+         <li>DRC</li>
+         
+    </div>
+        <div class="navbar-f">
+            <nav class="navbar" id="menu">
+                
+                 <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                 <br>
+                 <br>
+                 <a href="#HOME">Home</a>
+                 <a href="#About">About</a>
+                  <a href="#Portfolio">Portfolio</a>
+                <a href="#Contact">Contact</a> 
+                <br>
+                <br>
+                <br> 
+               
+          
+          </nav>
+         <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </div>
+</header>
+
+<!----------HOME---------------->
+
+<div id="HOME">
+<section class="Home">
+   
+    <div class="Home-content">
+    
+    <h1> Hi! I'm <span> Rhandell Cangayo</span> </h1>
+    <h3> A Front-end Developer, new at web development, still learning <br> about designing. Explore my works! </h3>
+        
+    </div>      
+</section>  
+</div>
+<!------about me-------------->      
+    <!---- pang link lng to sa navigation--->      
+<div id="About">
+    <!----imaginary box and lalagyan lng sya ng bg color // serves as background---> 
+    <div class="Abt-Cnt">  
+        <!---- imaginary box na lalagyan ng content and colors  ---> 
+        <div class="Abt-1">
+            <!----imaginary box na lalagyan ng content and colors  ---> 
+            <div class="Abt-2">
+                
+                <img src="about.jpg" width="25%" height="300vh">
+                
+                <p> About Me</p>
+                <br>
+                <h2> Hi! My name is Rhandell Cangayo, 19 yrs old, from Marilao Bulacan. I'm new at web development, my skill are still in progress, i want to gain more knowledge to improve my skills, i don't know what i want to be so i want to learn all and excel in every field. I'm easy to communicate and dedicated in my works.</h2>
+                <br><a href="#" class="btn-cv">Download Resume </a>
+        </div>
+        
+    </div>
+    
+                
+    <div class="skills">
+        <div class="myskill">
+                <h1>Skills</h1>
+         </div>
+        <li><h3>Unity</h3>
+            <span class="bar"><span class="Unity"></span></span>
+        </li>
+        <li><h3>Photoshop</h3>
+            <span class="bar"><span class="Photoshop"></span></span>
+        </li>
+        <li><h3>Html</h3>
+            <span class="bar"><span class="Html"></span></span>
+        </li>
+        <li><h3>css</h3>
+            <span class="bar"><span class="css"></span></span>
+        </li>
+        <li><h3>cooking</h3>
+            <span class="bar"><span class="cooking"></span></span>
+        </li>
+        <li><h3>cleaning</h3>
+            <span class="bar"><span class="cleaning"></span></span>
+        </li>
+        <li><h3>dishwasher</h3>
+            <span class="bar"><span class="dishwasher"></span></span>
+        </li>
+    </div>
+    </div>
+</div>
+<!------Portfolio-------------->   
+<div id="Portfolio">
+  
+    <div class="port-cnt">
+        <h1> Portfolio</h1>
+        <div class="Portfolio-list" >
+            <div class=" port" >
+                <img src="itechlogo.png" width="150" height="120">
+                <h2> I-tech</h2>
+                
+                <p> I-tech is an AR games,come and play to gain your victory and claim your rewards!</p>
+                <br>
+                <a href="itech.html">See More</a>
+          </div class="portcal">
+            <div>
+                <img src="Calculator.png" width="150" height="120" >
+                <h2> Calculator</h2>
+                
+                <p> Experience my personal Calculator, dark/light mode and rgb buttons.</p>
+                <br>
+                <a href="firstCalcu.html">See More</a>
+            </div>
+            <div>  
+                <img src="bmi.png" width="150" height="120" > 
+                <h2> BMI</h2>
+                
+                <p> Know your Body Mass Index! Let's compute you BMI by using my BMI computer.</p>
+                <br>
+                <a href="firstBMI.html">See More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------contact-------------->   
+<div id="Contact">
+    <div class="contact-box">
+        <div class="rows">
+            <div class="contact-left">
+                <h1 class="up"> Contact Me </h1>
+                
+                <p><i class="fa-solid fa-paper-plane"></i>cangayorhandell15@gmail.com </p>
+                <p><i class="fa-solid fa-mobile"></i>0929-384-2663</p>
+                <div class="icons">
+                   <s><a href=" https://www.facebook.com/rhandell.cangayo.33"><i class="fa-brands fa-facebook"></i></a></s> 
+                    <l><a href=" https://www.instagram.com/rhandell_cangayo/">  <i class="fa-brands fa-square-instagram"></i> </a></l>
+                    
+            </div>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<div class="CopyRight">
+    <p>CopyRight © DRC. Made by Rhandell Cangayo</p>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzJjMH03s5kaIsIfr-6lx9ntxG-pBQxvLYm7RbyIkZ5ou28BkdtCFsSCCrqpVNupyxOSA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+ 
+  <script>
+    var omenu = document.getElementById("menu");
+    
+        function openmenu(){
+            omenu.style.right = "0";
+        }
+        function closemenu(){
+            omenu.style.right = "-200px";
+        }
+       
+  </script>
+</body>
+</html>

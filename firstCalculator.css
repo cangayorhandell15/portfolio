@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+  background: var(--background-color);
+  color: var(--text-color);
+  transition: color 0.8s;
+}
+:root{
+  --background-color:rgb(225, 218, 218);
+  --text-color:hsl(0, 0%, 11%);
+  --tittle-color:#000;
+
+  transition: background 0.8s color 0.8s;
+}
+.dark-theme{
+  --background-color:hsl(0, 0%, 13%);
+  --text-color:hsl(0, 8%, 85%);
+  --tittle-color:rgb(225, 218, 218);
+  transition: background 0.8s color 0.8s;
+}
+hr{
+  background-color: var(--tittle-color);
+}
+.d-btn{
+  width: 80px;
+  height: 40px;
+  color: var(--text-color);
+  background: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-bottom: 40%;
+  margin-right: 50%;
+}
+span {
+  font-weight: 900;
+  font-size: 19px;
+}
+
+.calculator{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: hwb(0 20% 80%);
+}
+.cal{
+    background: var(--background-color);
+    padding: 40px;
+    border-radius: 10px;
+    position: fixed;
+   
+    
+}
+form .disP{
+    display: flex;
+    justify-content: flex-end;
+}
+.top-cal .disP input{
+    font-size: 56px;
+    flex: 1;
+    text-align: right;
+    box-shadow: none;
+}
+
+.top-cal  form input{
+    font-size: 36px;
+    width: 100px;
+    height: 80px;
+    box-shadow:  -9px 10px 24px rgba(0,0,0,0.12),-9px 10px 24px rgba(0,0,0,0.24);
+    background: transparent;
+    cursor: pointer;
+    color:var(--text-color);
+    outline: 0;
+    border: 0;
+    margin: 10px;
+    
+}
+form input.ac{
+    width: 224.5px;
+}
+.top-cal input{
+  color: var(--text-color);
+  
+}
