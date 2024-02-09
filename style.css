@@ -1186,4 +1186,175 @@ form input, form textarea{
             
             
         }
+ 
+@media (max-width: 500px){
+   
+       /*-------------HOME----------*/
+       .Home{
+       margin: auto;
+           width: 90%;
+            height: 100vh;
+            display: flex;
+         
+            margin-right: 2%;
+            background-image: url(webpicture.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 1%;
+            background-size: 300px;
+            align-items: center ;
+            padding:  10%;
+        }
+        .Home-content{
+            color: aliceblue;
+            margin-top: 85%;
+        }
+        
+        .Home-content h1{
+           
+            font-style: italic;
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 75%;
+        }
+        .Home-content h3{
+           margin-top: 5%;
+            font-size: 15px;   
+        }
+        .Home-content span{
+            color: #ffD700;
+        }
+    }       
+    
+@media (max-width: 460px){
+   
+    /*-------------HOME----------*/
+    .Home{
+    margin: auto;
+        width: 90%;
+         height: 100vh;
+         display: flex;
+      
+         margin-right: 2%;
+         background-image: url(webpicture.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         margin-top: 1%;
+         background-size: 300px;
+         align-items: center ;
+         padding:  10%;
+     }
+     .Home-content{
+         color: aliceblue;
+         margin-top: 100%;
+     }
+     
+     .Home-content h1{
+        
+         font-style: italic;
+         font-size: 20px;
+         font-weight: 400;
+         margin-top: 75%;
+     }
+     .Home-content h3{
+        margin-top: 5%;
+         font-size: 15px;   
+     }
+     .Home-content span{
+         color: #ffD700;
+     }
+     .contact-box{
+        padding: 3px 5%;
+        background: hsl(0, 0%, 70%);
+        margin-top: 50px;   
+        
+    }
+    .contact-right{
+        flex-basis: 60%;
+        
+        
+    }
+    .rows{
+        font-size: 10px;
+    }
+ }       
+  
+@media (max-width: 460px){
+   
+    /*-------------HOME----------*/
+    .Home{
+    margin: auto;
+        width: 90%;
+         height: 100vh;
+         display: flex;
+      
+         margin-right: 2%;
+         background-image: url(webpicture.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         margin-top: 1%;
+         background-size: 300px;
+         align-items: center ;
+         padding:  10%;
+     }
+     .Home-content{
+         color: aliceblue;
+         margin-top: 120%;
+     }
+     
+     .Home-content h1{
+        
+         font-style: italic;
+         font-size: 20px;
+         font-weight: 400;
+         margin-top: 75%;
+     }
+     .Home-content h3{
+        margin-top: 5%;
+         font-size: 15px;   
+     }
+     .Home-content span{
+         color: #ffD700;
+     }
+ }       
+
+ 
+@media (max-width: 370px){
+   
+    /*-------------HOME----------*/
+    .Home{
+    margin: auto;
+        width: 90%;
+         height: 100vh;
+         display: flex;
+      
+         margin-right: 2%;
+         background-image: url(webpicture.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         margin-top: 1%;
+         background-size: 300px;
+         align-items: center ;
+         padding:  10%;
+     }
+     .Home-content{
+         color: aliceblue;
+         margin-top: 140%;
+     }
+     
+     .Home-content h1{
+        
+         font-style: italic;
+         font-size: 20px;
+         font-weight: 400;
+         margin-top: 75%;
+     }
+     .Home-content h3{
+        margin-top: 5%;
+         font-size: 15px;   
+     }
+     .Home-content span{
+         color: #ffD700;
+     }
+ }       
 }
